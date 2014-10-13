@@ -76,6 +76,7 @@ BSOD::BSOD(BMessage *msg, image_id image)
  : BScreenSaver(msg, image)
 {
 	m_bitmap = NULL;
+	m_icon = NULL;
 	m_image = image;
 	m_preview = false;
 	
